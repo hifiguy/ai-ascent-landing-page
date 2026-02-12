@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Ascent</title>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
         .container { width: 90%; max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 8px; }
@@ -13,12 +14,77 @@
         p { line-height: 1.6; }
         ul { list-style-type: disc; margin-left: 20px; }
         li { margin-bottom: 8px; }
-        .button { display: block; width: fit-content; margin: 20px auto; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px; text-align: center; }
-        .button:hover { background-color: #0056b3; }
+        .signup-section {
+            background: linear-gradient(135deg, #0056b3 0%, #007bff 100%);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .signup-section h2 {
+            color: #fff;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+        .signup-section p {
+            color: #e8f0fe;
+        }
+        #mc_embed_signup {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto 0;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+        }
+        #mc_embed_signup h2 {
+            color: #0056b3;
+            font-size: 1.4em;
+            text-align: center;
+            border-bottom: none;
+            margin-top: 0;
+        }
+        #mc_embed_signup .button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        #mc_embed_signup .button:hover {
+            background-color: #0056b3;
+        }
+        #mc_embed_signup input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        #mc_embed_signup input[type="email"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        #mc_embed_signup .mc-field-group label {
+            font-weight: bold;
+            color: #333;
+        }
+        #mc_embed_signup .indicates-required {
+            text-align: right;
+            font-size: 12px;
+            color: #666;
+        }
         @media (max-width: 600px) {
             .container { width: 95%; padding: 15px; }
             h1 { font-size: 1.8em; }
             h2 { font-size: 1.4em; }
+            .signup-section { padding: 20px 15px; }
+            #mc_embed_signup { padding: 15px; }
         }
     </style>
 </head>
@@ -27,10 +93,10 @@
         <h1>AI Ascent: Elevate Your Future with AI Knowledge</h1>
 
         <h2>Unlock Your AI Potential</h2>
-        <p>In today's rapidly evolving world, Artificial Intelligence isn't just a buzzword—it's the future. Whether you're an educator shaping tomorrow's minds, a student eager to master cutting-edge skills, an individual looking to stay ahead, or part of an organization (SME, large enterprise, university, or public administration) aiming for innovation, AI Ascent is your definitive pathway to comprehensive AI mastery.</p>
+        <p>In today’s rapidly evolving world, Artificial Intelligence isn’t just a buzzword—it’s the future. Whether you’re an educator shaping tomorrow’s minds, a student eager to master cutting-edge skills, an individual looking to stay ahead, or part of an organization (SME, large enterprise, university, or public administration) aiming for innovation, AI Ascent is your definitive pathway to comprehensive AI mastery.</p>
 
         <h2>Why AI Ascent?</h2>
-        <p>The AI landscape is complex, but your learning doesn't have to be. AI Ascent bridges the gap between theoretical knowledge and practical application, offering tailored solutions that address the real-world challenges and opportunities in AI. We focus on:</p>
+        <p>The AI landscape is complex, but your learning doesn’t have to be. AI Ascent bridges the gap between theoretical knowledge and practical application, offering tailored solutions that address the real-world challenges and opportunities in AI. We focus on:</p>
         <ul>
             <li><strong>Practical Developer Training:</strong> Hands-on, up-to-date training for aspiring and existing AI developers, especially in generative AI.</li>
             <li><strong>Tailored Solutions for SMEs:</strong> Empowering small and medium-sized enterprises to leverage AI for growth and efficiency.</li>
@@ -39,9 +105,9 @@
         </ul>
 
         <h2>Our Flagship Offering: Generative AI for Developers</h2>
-        <p>Ready to dive deep into the most exciting frontier of AI? Join our <strong>'Generative AI for Developers: A 3-Hour Hands-On Workshop'</strong>.</p>
+        <p>Ready to dive deep into the most exciting frontier of AI? Join our <strong>‘Generative AI for Developers: A 3-Hour Hands-On Workshop’</strong>.</p>
         <p>This intensive workshop is designed for developers looking to upskill and build their first generative AI applications. Learn from industry experts, get hands-on experience with the latest frameworks, and unlock your potential to innovate.</p>
-        <p><strong>What you'll gain:</strong></p>
+        <p><strong>What you’ll gain:</strong></p>
         <ul>
             <li>Practical skills in generative AI development.</li>
             <li>Understanding of key frameworks and tools.</li>
@@ -52,7 +118,7 @@
 
         <h2>Free Resource: The Generative AI Toolkit for Business</h2>
         <p>Curious about how AI can transform your business? Download our exclusive lead magnet:</p>
-        <p><strong>'The Generative AI Toolkit for Business: 50 Prompts & Use Cases for SMEs'</strong></p>
+        <p><strong>‘The Generative AI Toolkit for Business: 50 Prompts & Use Cases for SMEs’</strong></p>
         <p>This high-value toolkit provides actionable insights and practical examples, allowing SMEs to quickly grasp and apply generative AI in their operations. Discover 50 prompts and use cases that will kickstart your AI journey.</p>
         <p><strong>Download your free toolkit today and start innovating!</strong></p>
 
@@ -66,11 +132,53 @@
             <li><strong>Companies (SMEs & Large Enterprises):</strong> Drive innovation, optimize operations, and gain a strategic advantage with AI.</li>
         </ul>
 
-        <h2>Ready to Ascend?</h2>
-        <p>Join the AI Ascent community and embark on your journey to AI mastery. Explore our workshops, download our resources, and transform your future.</p>
+        <div class="signup-section">
+            <h2>Ready to Ascend?</h2>
+            <p>Join the AI Ascent community and get access to our workshops, resources, and the free Generative AI Toolkit!</p>
 
-        <a href="#" class="button">Register for the Generative AI Workshop</a>
-        <a href="#" class="button">Download the Free Generative AI Toolkit</a>
+            <div id="mc_embed_shell">
+                <div id="mc_embed_signup">
+                    <form action="https://github.us18.list-manage.com/subscribe/post?u=f86894fceadf289ce28392dbd&amp;id=425184ae3d&amp;f_id=001fb2e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Sign Up for AI Ascent</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="your@email.com">
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                <input type="text" name="b_f86894fceadf289ce28392dbd_425184ae3d" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Get Free Toolkit & Workshop Access">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">
+        (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0]='EMAIL'; ftypes[0]='email';
+            fnames[1]='FNAME'; ftypes[1]='text';
+            fnames[2]='LNAME'; ftypes[2]='text';
+            fnames[3]='ADDRESS'; ftypes[3]='address';
+            fnames[4]='PHONE'; ftypes[4]='phone';
+            fnames[5]='BIRTHDAY'; ftypes[5]='birthday';
+            fnames[6]='COMPANY'; ftypes[6]='text';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
 </body>
 </html>
